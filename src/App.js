@@ -9,31 +9,14 @@ import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-d
 
 function App() {
   return (
-    // <div className="App">
-    //   <Header/>
-      
-      // <div className='content'>
-      //   <LoginForm />
-      // </div>
-  
-        
-      
-      
 
       <Router>
       <Routes>
-        <Route path="/login" element={<LoginPage/>} />
+        <Route path="/" element={<LoginPage/>} />
         <Route path="/home" element={<TrendingPage/>} />
-        <Route to="/login" element={<Navigate to='/login'></Navigate>}/>
       </Routes>
     </Router>
 
-      //   <div className='content'>
-      //   <TrendingPage/>
-      // </div>  
-
-      // <Footer/>
-    // </div>
   );
 }
 
