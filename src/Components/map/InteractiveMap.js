@@ -6,14 +6,14 @@ import './InteractiveMap.css'
 const InteractiveMap = () => {
 
   return (
-    <MapContainer className='leaflet-container' center={[51.505, -0.09]} zoom={13} scrollWheelZoom={true}>
+    <MapContainer className='leaflet-container' center={[-36.85, 174.7645]} zoom={11} scrollWheelZoom={true}>
   <TileLayer
     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
   />
-  <Marker position={[51.505, -0.09]}>
+  <Marker position={[-36.8, 174.76]}>
     <Popup>
-      A pretty CSS3 popup. <br /> Easily customizable.
+      Vote for trending item one <br/> By Anonymous 
     </Popup>
   </Marker>
 </MapContainer>
