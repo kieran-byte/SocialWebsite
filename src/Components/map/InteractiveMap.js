@@ -27,7 +27,7 @@ const greenIcon = L.icon({
 const InteractiveMap = () => {
 
   return (
-    <MapContainer className='leaflet-container' center={[-40.85, 174.7645]} zoom={6} scrollWheelZoom={true}>
+    <MapContainer className='leaflet-container' center={[-40.85, 174.7645]} zoom={6} zoomControl={false} scrollWheelZoom={true}>
   <TileLayer
     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
