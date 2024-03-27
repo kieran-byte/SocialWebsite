@@ -17,13 +17,12 @@ const TrendingPage = () => {
         <div className="section trending-items">
         <h2>Trending Items</h2>
         <div className='trending-items-container'>
-          <TrendingItem title="Item 1" description="Description of item 1." />
-          <TrendingItem title="Item 2" description="Description of item 2." />
+          <TrendingItem title="Item 1" description="Description of item 1." color="blue" />
+          <TrendingItem title="Item 2" description="Description of item 2." color="green" />
           <TrendingItem title="Item 3" description="Description of item 3." />
           <TrendingItem title="Item 4" description="Description of item 4." />
           <TrendingItem title="Item 5" description="Description of item 5." />
           <TrendingItem title="Item 6" description="Description of item 6." />
-          {/* etc */}
         </div>
           
         </div>
